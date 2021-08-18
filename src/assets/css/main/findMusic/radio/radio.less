@@ -1,0 +1,118 @@
+.el-container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px #D3D3D3 solid;
+    border-bottom: none;
+
+    .el-header {
+        width: 1000px;
+        height: 200px;
+
+        .el-col {
+            .el-image {
+                margin: 20px;
+            }
+
+            span {
+                display: block;
+                text-align: center;
+            }
+        }
+
+    }
+
+    .el-main {
+        position: relative;
+
+        .el-divider {
+            background-color: #D70000;
+        }
+
+        .el-divider--horizontal {
+            margin: 0;
+            height: 2px;
+        }
+
+        .title {
+            height: 30px;
+
+            .el-col {
+                font-size: 20px;
+            }
+        }
+
+        .radio-list {
+            display: inline-block;
+            width: 450px;
+            margin: 5px;
+
+            .el-row {
+                width: 450px;
+
+                .el-col {
+                    position: relative;
+                    cursor: pointer;
+                    height: 60px;
+
+                    .el-image {
+                        width: 40px;
+                        height: 40px;
+                        vertical-align: top;
+                    }
+
+                    div {
+                        display: inline-block;
+                        width: 270px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+
+                    }
+
+                    .radioer {
+                        position: absolute;
+                        top: 10px;
+                    }
+
+                    .index {
+                        width: 50px;
+                    }
+                }
+            }
+
+            .chose:hover {
+                background-color: #c5c5c5;
+            }
+
+        }
+
+        .radio-re-list {
+            .el-row {
+                .el-col {
+
+                    div {
+                        display: inline-block;
+                        margin: 20px 0;
+                        width: 270px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow: ellipsis;
+
+                        span:hover {
+                            text-decoration: underline;
+                            cursor: pointer;
+                        }
+                    }
+
+                    .el-image {
+                        width: 120px;
+                        height: 120px;
+                        vertical-align: middle;
+                    }
+                }
+            }
+
+        }
+    }
+}

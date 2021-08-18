@@ -1,0 +1,50 @@
+.el-container {
+    width: 1000px;
+    margin: 0 auto;
+    border: #dfdfdf solid 1px;
+    border-bottom: none;
+    background-color: #FFFFFF;
+
+    .song-list {
+        border-top: #dfdfdf solid 1px;
+        border-bottom: #dfdfdf solid 1px;
+
+        .el-col {
+            width: 130px;
+            margin: 10px 30px;
+            cursor: pointer;
+
+            span {
+                display: inline-block;
+                width: 130px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            span:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .el-dropdown {
+        margin-left: 30px;
+
+        // width: 500px;
+        /deep/ .el-button--primary {
+            color: rgb(19, 18, 18);
+            background-color: #ffffff;
+            border-color: rgb(19, 18, 18);
+        }
+    }
+
+    .el-pagination {
+        width: 220px;
+        margin: 0 auto;
+
+        /deep/ i {
+            width: 100px;
+        }
+    }
+}

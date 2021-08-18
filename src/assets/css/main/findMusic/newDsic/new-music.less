@@ -1,0 +1,92 @@
+.el-container {
+    width: 1000px;
+    margin: 0 auto;
+    border: #D3D3D3 solid 1px;
+    border-top: none;
+    border-bottom: none;
+    background-color: #FFFFFF;
+
+    .el-main {
+        padding: 15px;
+    }
+
+    .el-divider {
+        background-color: #D70000;
+        width: 100%;
+    }
+
+    .el-divider--horizontal {
+        margin: 0;
+        height: 2px;
+    }
+
+    .title {
+        height: 45px;
+
+        .el-col {
+            font-size: 30px;
+
+            span {
+                margin-left: 30px;
+            }
+        }
+    }
+
+    .content {
+        .el-col {
+            margin: 20px 31px;
+            width: 130px;
+            cursor: pointer;
+
+            p:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+
+            p {
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+
+    .sim-list {
+        .el-col {
+            margin: 5px 7px;
+            width: 130px;
+            height: 30px;
+        }
+    }
+
+    .all-new {
+        .el-col {
+            margin: 20px 31px;
+            width: 130px;
+
+            span {
+                display: inline-block;
+                width: 130px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+
+            span:hover {
+                text-decoration: underline;
+                cursor: pointer;
+            }
+
+
+        }
+    }
+
+    .el-pagination {
+        width: 220px;
+        margin: 0 auto;
+
+        /deep/ i {
+            width: 100px;
+        }
+    }
+}

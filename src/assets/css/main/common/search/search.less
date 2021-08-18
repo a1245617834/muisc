@@ -1,0 +1,122 @@
+.el-container {
+    border: 1px solid #D3D3D3;
+
+    .el-header {
+        width: 980px;
+        margin: 0 auto;
+        border: 1px solid #D3D3D3;
+        border-top: none;
+        border-bottom: none;
+
+        .el-input {
+            width: 420px;
+            height: 40px;
+            margin: 10px 260px;
+        }
+    }
+
+    .el-main {
+        width: 980px;
+        margin: 0 auto;
+        padding: 40px 40px 0;
+        border: 1px solid #D3D3D3;
+        border-bottom: none;
+        border-top: none;
+
+        .el-menu {
+            background-color: #F8F8F8;
+            border-bottom: none;
+
+            .el-menu-item {
+                width: 112px;
+                height: 40px;
+                border-top: #CCCCCC 2px solid;
+                border-bottom: #CCCCCC 2px solid;
+                line-height: 40px;
+                text-align: center;
+                transition: none;
+            }
+
+            .el-menu-item:hover {
+                border-top: #E81517 2px solid;
+                background-color: #F8F8F8;
+            }
+
+            /deep/ .el-menu-item.is-active {
+                border-top: #E81517 2px solid;
+                border-bottom: none;
+                border-left: #CCCCCC 1px solid;
+                border-right: #CCCCCC 1px solid;
+            }
+
+        }
+
+        .ool:nth-child(odd) {
+            background-color: #E81517;
+        }
+
+        .single {
+            padding: 20px;
+        }
+
+        .single:hover {
+            border: 1px solid #E1E1E1;
+            background-color: #F2F2F2;
+        }
+
+        .singer {
+            width: 135px;
+            margin: 20px 20px 0 20px;
+        }
+
+        .album {
+            width: 135px;
+            margin: 20px 20px 0 20px;
+        }
+
+        .mv {
+            width: 160px;
+            margin: 20px 20px 0 20px;
+        }
+
+        .lyric {
+            margin: 20px;
+        }
+
+        .lyric:hover {
+            border: 1px solid #E1E1E1;
+            background-color: #F2F2F2;
+        }
+
+        .song-sheet {
+            margin: 20px;
+
+            .el-image {
+                width: 50px;
+            }
+        }
+
+        .song-sheet:hover {
+            border: 1px solid #E1E1E1;
+            background-color: #F2F2F2;
+        }
+
+        .anchor {
+            width: 150px;
+            margin: 20px 20px 0 20px;
+        }
+
+        .user {
+            margin: 20px;
+
+            .el-image {
+                width: 50px;
+            }
+        }
+
+        .user:hover {
+            border: 1px solid #E1E1E1;
+            background-color: #F2F2F2;
+        }
+    }
+}
